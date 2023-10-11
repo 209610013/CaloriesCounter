@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calorie Counter</title>
+    <script src="script.js" async></script>
+</head>
+<body>
+    <h1>Calorie Counter</h1>
+
+    <div class="food-section" id="appetizer-section">
+        <h2>Appetizer</h2>
+        <div class="food-input">
+            <span>Protein:</span>
+            <button id="appetizer-protein-minus">-</button>
+            <span id="appetizer-protein">0</span>
+            <button id="appetizer-protein-plus">+</button>
+        </div>
+        <div class="food-input">
+            <span>Carbohydrates:</span>
+            <button id="appetizer-carbs-minus">-</button>
+            <span id="appetizer-carbs">0</span>
+            <button id="appetizer-carbs-plus">+</button>
+        </div>
+        <div class="food-input">
+            <span>Fat:</span>
+            <button id="appetizer-fat-minus">-</button>
+            <span id="appetizer-fat">0</span>
+            <button id="appetizer-fat-plus">+</button>
+        </div>
+        <div class="food-calories">
+            <span>Calories: <span id="appetizer-calories">0</span></span>
+        </div>
+        <button id="reset-appetizer">Reset Appetizer</button>
+    </div>
+
+    <div class="food-section" id="entree-section">
+        <h2>Entree</h2>
+        <div class="food-input">
+            <span>Protein:</span>
+            <button id="entree-protein-minus">-</button>
+            <span id="entree-protein">0</span>
+            <button id="entree-protein-plus">+</button>
+        </div>
+        <div class="food-input">
+            <span>Carbohydrates:</span>
+            <button id="entree-carbs-minus">-</button>
+            <span id="entree-carbs">0</span>
+            <button id="entree-carbs-plus">+</button>
+        </div>
+        <div class "food-input">
+            <span>Fat:</span>
+            <button id="entree-fat-minus">-</button>
+            <span id="entree-fat">0</span>
+            <button id="entree-fat-plus">+</button>
+        </div>
+        <div class="food-calories">
+            <span>Calories: <span id="entree-calories">0</span></span>
+        </div>
+        <button id="reset-entree">Reset Entree</button>
+    </div>
+
+    <div class="food-section" id="dessert-section">
+        <h2>Dessert</h2>
+        <div class="food-input">
+            <span>Protein:</span>
+            <button id="dessert-protein-minus">-</button>
+            <span id="dessert-protein">0</span>
+            <button id="dessert-protein-plus">+</button>
+        </div>
+        <div class="food-input">
+            <span>Carbohydrates:</span>
+            <button id="dessert-carbs-minus">-</button>
+            <span id="dessert-carbs">0</span>
+            <button id="dessert-carbs-plus">+</button>
+        </div>
+        <div class="food-input">
+            <span>Fat:</span>
+            <button id="dessert-fat-minus">-</button>
+            <span id="dessert-fat">0</span>
+            <button id="dessert-fat-plus">+</button>
+        </div>
+        <div class="food-calories">
+            <span>Calories: <span id="dessert-calories">0</span></span>
+        </div>
+        <button id="reset-dessert">Reset Dessert</button>
+    </div>
+
+    <div id="total-calories">
+        <h2>Total Calories</h2>
+        <span>Total: <span id="total-meal-calories">0</span></span>
+    </div>
+
+    <button id="reset-meal">Reset Meal</button>
+    <button id="plus-5">+5</button>
+    <button id="minus-5">-5</button>
+</body>
+</html>

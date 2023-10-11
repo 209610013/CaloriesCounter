@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.food-section {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.food-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.food-input span {
+    margin: 0 10px;
+}
+
+.food-calories {
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#total-calories {
+    margin-top: 20px;
+}
